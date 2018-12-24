@@ -1,0 +1,63 @@
+{
+   "blockedit": {
+      "message": "SmartAdBlock onu engelledi."
+   },
+   "dis": {
+      "message": "Menetmek"
+   },
+   "ena": {
+      "message": "Etkinleştirme"
+   },
+   "extensionDescription": {
+      "description": "SmartAdBlock Extension",
+      "message": "SmartAdBlock"
+   },
+   "extensionName": {
+      "description": "SmartAdBlock Extension",
+      "message": "Nihai reklam engelleyici"
+   },
+   "hasblock": {
+      "message": "SmartAdBlock engellendi"
+   },
+   "inactive": {
+      "message": "SmartAdBlock bu sayfada devre dışı bırakıldı"
+   },
+   "loc_one": {
+      "message": "Bu yerel bir sayfa"
+   },
+   "loc_two": {
+      "message": "SmartAdBlock yerel sayfalarda etkin değil"
+   },
+   "notapopup": {
+      "message": "Pop-up değil misiniz? Bu bağlantıyı takip etmek için buraya tıklayın."
+   },
+   "notificationContent": {
+      "description": "SmartAd Blocker - Pop up blocker",
+      "message": "SmartAd Blocker - Pop up blocker",
+      "placeholders": {
+         "url": {
+            "content": "SmartAd Blocker",
+            "example": "SmartAd Blocker"
+         }
+      }
+   },
+   "notificationTitle": {
+      "description": "SmartAdBlock Extension",
+      "message": "SmartAdBlock Extension"
+   },
+   "on": {
+      "message": "üzerinde"
+   },
+   "request": {
+      "message": "istek"
+   },
+   "requests": {
+      "message": "istekler"
+   },
+   "suggestions": {
+      "message": "Öneriler"
+   },
+   "tips": {
+      "message": "İpuçları"
+   }
+}

@@ -1,0 +1,63 @@
+{
+   "blockedit": {
+      "message": "SmartAdBlock l'a bloqué."
+   },
+   "dis": {
+      "message": "Désactiver"
+   },
+   "ena": {
+      "message": "Activer"
+   },
+   "extensionDescription": {
+      "description": "SmartAdBlock Extension",
+      "message": "SmartAdBlock"
+   },
+   "extensionName": {
+      "description": "SmartAdBlock Extension",
+      "message": "Le Bloqueur de pub ultime"
+   },
+   "hasblock": {
+      "message": "SmartAdBlock a bloqué"
+   },
+   "inactive": {
+      "message": "SmartAdBlock est désactivé sur cette page"
+   },
+   "loc_one": {
+      "message": "Ceci est une page locale"
+   },
+   "loc_two": {
+      "message": "SmartAdBlock est inactif sur\u003Cbr>les pages locales"
+   },
+   "notapopup": {
+      "message": "Pas un popup? Cliquez ici pour suivre ce lien."
+   },
+   "notificationContent": {
+      "description": "SmartAd Blocker - Pop up blocker",
+      "message": "SmartAd Blocker - Pop up blocker",
+      "placeholders": {
+         "url": {
+            "content": "SmartAd Blocker",
+            "example": "SmartAd Blocker"
+         }
+      }
+   },
+   "notificationTitle": {
+      "description": "SmartAdBlock Extension",
+      "message": "SmartAdBlock Extension"
+   },
+   "on": {
+      "message": "sur"
+   },
+   "request": {
+      "message": "requête"
+   },
+   "requests": {
+      "message": "requêtes"
+   },
+   "suggestions": {
+      "message": "Suggestions"
+   },
+   "tips": {
+      "message": "Bugs"
+   }
+}

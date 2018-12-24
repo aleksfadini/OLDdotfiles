@@ -1,0 +1,19 @@
+# You can add comments to these files with #
+h	~/
+d	/media/BigTank/documents
+locd	~/Documents
+locD	~/Downloads
+locm	~/Music
+locpp	~/Pictures
+locvv	~/Videos
+vv	/media/BigTank/documents/DownloadedVideos
+cf	~/.config
+sc	~/.scripts
+mn	/mnt
+e	/etc
+wp	/media/BigTank/documents/wallpapers
+Ls	/media/BigTank/documents/LinuxStuff
+gdv	/media/BigTank/gamedev
+cata	/media/BigTank/documents/LinuxStuff/LinuxGames/Cataclysm-DDA
+catab	/media/BigTank/documents/LinuxStuff/LinuxGames/cataBackup
+

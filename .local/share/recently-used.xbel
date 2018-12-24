@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/aleks/Downloads/The%20War%20of%20Art%20-%20Steven%20Pressfield/01%20-%20Introduction/01%20-%20Introduction.mp3" added="2018-12-24T09:27:47Z" modified="2018-12-24T09:27:47Z" visited="2018-12-24T09:27:48Z">
+    <title>01 - Introduction.mp3</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Totem</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Videos" exec="&apos;totem %u&apos;" modified="2018-12-24T09:27:47Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/aleks/Downloads/The%20War%20of%20Art%20-%20Steven%20Pressfield/01%20-%20Introduction/02%20-%20Foreward.mp3" added="2018-12-24T09:28:26Z" modified="2018-12-24T09:28:26Z" visited="2018-12-24T09:28:26Z">
+    <title>02 - Foreward.mp3</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Totem</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Videos" exec="&apos;totem %u&apos;" modified="2018-12-24T09:28:26Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/aleks/Downloads/The%20War%20of%20Art%20-%20Steven%20Pressfield/01%20-%20Introduction/03%20-%20What%20I%20Do.mp3" added="2018-12-24T09:36:54Z" modified="2018-12-24T09:36:54Z" visited="2018-12-24T09:36:54Z">
+    <title>03 - What I Do.mp3</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Totem</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Videos" exec="&apos;totem %u&apos;" modified="2018-12-24T09:36:54Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/aleks/Downloads/The%20War%20of%20Art%20-%20Steven%20Pressfield/01%20-%20Introduction/04%20-%20What%20I%20Know.mp3" added="2018-12-24T09:44:22Z" modified="2018-12-24T09:44:22Z" visited="2018-12-24T09:44:22Z">
+    <title>04 - What I Know.mp3</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Totem</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Videos" exec="&apos;totem %u&apos;" modified="2018-12-24T09:44:22Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/aleks/Downloads/The%20War%20of%20Art%20-%20Steven%20Pressfield/01%20-%20Introduction/05%20-%20The%20Unlived%20Life.mp3" added="2018-12-24T09:45:07Z" modified="2018-12-24T09:45:07Z" visited="2018-12-24T09:45:07Z">
+    <title>05 - The Unlived Life.mp3</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Totem</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Videos" exec="&apos;totem %u&apos;" modified="2018-12-24T09:45:07Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/aleks/Downloads/The%20War%20of%20Art%20-%20Steven%20Pressfield/02%20-%20Book%20One%20-%20Resistance,%20Defining%20the%20Enemy/06%20-%20Resistance&apos;s%20Greatest%20Hits.mp3" added="2018-12-24T09:51:05Z" modified="2018-12-24T09:51:05Z" visited="2018-12-24T09:51:05Z">
+    <title>06 - Resistance&apos;s Greatest Hits.mp3</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Totem</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Videos" exec="&apos;totem %u&apos;" modified="2018-12-24T09:51:05Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/aleks/Downloads/The%20War%20of%20Art%20-%20Steven%20Pressfield/02%20-%20Book%20One%20-%20Resistance,%20Defining%20the%20Enemy/07%20-%20Resistance%20Is%20Invisible.mp3" added="2018-12-24T09:53:23Z" modified="2018-12-24T09:54:09Z" visited="2018-12-24T09:53:24Z">
+    <title>07 - Resistance Is Invisible.mp3</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Totem</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Videos" exec="&apos;totem %u&apos;" modified="2018-12-24T09:54:09Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/aleks/Downloads/The%20War%20of%20Art%20-%20Steven%20Pressfield/02%20-%20Book%20One%20-%20Resistance,%20Defining%20the%20Enemy/08%20-%20Resistance%20Is%20Internal.mp3" added="2018-12-24T09:54:45Z" modified="2018-12-24T09:54:45Z" visited="2018-12-24T09:54:45Z">
+    <title>08 - Resistance Is Internal.mp3</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Totem</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Videos" exec="&apos;totem %u&apos;" modified="2018-12-24T09:54:45Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/aleks/Downloads/The%20War%20of%20Art%20-%20Steven%20Pressfield/02%20-%20Book%20One%20-%20Resistance,%20Defining%20the%20Enemy/09%20-%20Resistance%20Is%20Insidious.mp3" added="2018-12-24T09:55:53Z" modified="2018-12-24T09:55:53Z" visited="2018-12-24T09:55:53Z">
+    <title>09 - Resistance Is Insidious.mp3</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Totem</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Videos" exec="&apos;totem %u&apos;" modified="2018-12-24T09:55:53Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/aleks/Downloads/The%20War%20of%20Art%20-%20Steven%20Pressfield/02%20-%20Book%20One%20-%20Resistance,%20Defining%20the%20Enemy/10%20-%20Resistance%20Is%20Implacable.mp3" added="2018-12-24T09:56:47Z" modified="2018-12-24T09:56:47Z" visited="2018-12-24T09:56:47Z">
+    <title>10 - Resistance Is Implacable.mp3</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Totem</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Videos" exec="&apos;totem %u&apos;" modified="2018-12-24T09:56:47Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/aleks/Downloads/The%20War%20of%20Art%20-%20Steven%20Pressfield/02%20-%20Book%20One%20-%20Resistance,%20Defining%20the%20Enemy/11%20-%20Resistance%20Is%20Impersonal.mp3" added="2018-12-24T09:57:38Z" modified="2018-12-24T09:57:38Z" visited="2018-12-24T09:57:39Z">
+    <title>11 - Resistance Is Impersonal.mp3</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Totem</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Videos" exec="&apos;totem %u&apos;" modified="2018-12-24T09:57:38Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/aleks/Downloads/The%20War%20of%20Art%20-%20Steven%20Pressfield/02%20-%20Book%20One%20-%20Resistance,%20Defining%20the%20Enemy/12%20-%20Resistance%20Is%20Infaliable.mp3" added="2018-12-24T09:58:41Z" modified="2018-12-24T09:58:41Z" visited="2018-12-24T09:58:42Z">
+    <title>12 - Resistance Is Infaliable.mp3</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Totem</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Videos" exec="&apos;totem %u&apos;" modified="2018-12-24T09:58:41Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/aleks/Music/The%20War%20of%20Art%20-%20Steven%20Pressfield/03%20-%20Book%20Two%20-%20Combating%20Resistance,%20Turning%20Pro/54%20-%20A%20Professional%20Plays%20It%20As%20It%20Lays.mp3" added="2018-12-24T10:08:27Z" modified="2018-12-24T10:08:27Z" visited="2018-12-24T10:08:27Z">
+    <title>54 - A Professional Plays It As It Lays.mp3</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Totem</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Videos" exec="&apos;totem %u&apos;" modified="2018-12-24T10:08:27Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/aleks/Downloads/WarOfArt.zip" added="2018-12-24T11:19:12Z" modified="2018-12-24T11:19:12Z" visited="2018-12-24T11:19:13.234034Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2018-12-24T11:19:12Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

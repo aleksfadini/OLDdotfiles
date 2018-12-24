@@ -1,0 +1,31 @@
+{
+   "background": {
+      "scripts": [ "main.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "16": "button/add16.png",
+         "32": "button/add32.png",
+         "64": "button/add64.png"
+      },
+      "default_title": "Clip to DEVONthink"
+   },
+   "content_scripts": [ {
+      "js": [ "add_listener.js" ],
+      "matches": [ "http://*/*", "https://*/*" ]
+   } ],
+   "content_security_policy": "script-src 'self'; object-src 'self'",
+   "description": "Clip selected web content to your DEVONthink database directly from Chrome. Press Shift-Control-C to activate it from the keyboard.",
+   "homepage_url": "http://devontechnologies.com/redirect.php?id=download-extras",
+   "icons": {
+      "16": "button/add16.png",
+      "32": "button/add32.png",
+      "64": "button/add64.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDWugH3rGiyTnT0ptrWgukKHwZ6nqwkMu4nqYQzg5zbWGhbWc7SSiGSNbHEgf4KldyHg/WlIvINHqokn61TcRA44teq/HcjTULkwsGcdVOhcJKvq5CINHjg3Y1/qZ5w/CvscpvRTz7bOAdqJMYYqfhKwxc2aqOU+ELWSwzptq7JXwIDAQAB",
+   "manifest_version": 2,
+   "name": "Clip to DEVONthink",
+   "permissions": [ "tabs", "http://*/*", "https://*/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.3"
+}

@@ -1,0 +1,450 @@
+[   940.802] (--) Log file renamed from "/home/aleks/.local/share/xorg/Xorg.pid-9285.log" to "/home/aleks/.local/share/xorg/Xorg.0.log"
+[   940.802] 
+X.Org X Server 1.20.1
+X Protocol Version 11, Revision 0
+[   940.802] Build Operating System: Linux 4.4.0-135-generic x86_64 Ubuntu
+[   940.802] Current Operating System: Linux AleksBlackFortress 4.18.16-surface+ #71 SMP Sun Oct 28 12:25:59 UTC 2018 x86_64
+[   940.802] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-4.18.16-surface+ root=UUID=884d878a-13bb-4f92-98b6-188d2f11c6d5 ro quiet splash vt.handoff=1
+[   940.802] Build Date: 02 October 2018  06:40:03PM
+[   940.802] xorg-server 2:1.20.1-3ubuntu2 (For technical support please see http://www.ubuntu.com/support) 
+[   940.802] Current version of pixman: 0.34.0
+[   940.802] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[   940.802] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[   940.802] (==) Log file: "/home/aleks/.local/share/xorg/Xorg.0.log", Time: Mon Dec 24 19:11:42 2018
+[   940.802] (==) Using config directory: "/etc/X11/xorg.conf.d"
+[   940.802] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[   940.802] (==) No Layout section.  Using the first Screen section.
+[   940.802] (==) No screen section available. Using defaults.
+[   940.802] (**) |-->Screen "Default Screen Section" (0)
+[   940.802] (**) |   |-->Monitor "<default monitor>"
+[   940.803] (==) No device specified for screen "Default Screen Section".
+	Using the first device section listed.
+[   940.803] (**) |   |-->Device "Intel Graphics"
+[   940.803] (==) No monitor specified for screen "Default Screen Section".
+	Using a default monitor configuration.
+[   940.803] (==) Automatically adding devices
+[   940.803] (==) Automatically enabling devices
+[   940.803] (==) Automatically adding GPU devices
+[   940.803] (==) Automatically binding GPU devices
+[   940.803] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[   940.803] (WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+[   940.803] 	Entry deleted from font path.
+[   940.803] (WW) The directory "/usr/share/fonts/X11/100dpi/" does not exist.
+[   940.803] 	Entry deleted from font path.
+[   940.803] (WW) The directory "/usr/share/fonts/X11/75dpi/" does not exist.
+[   940.803] 	Entry deleted from font path.
+[   940.803] (WW) The directory "/usr/share/fonts/X11/100dpi" does not exist.
+[   940.803] 	Entry deleted from font path.
+[   940.803] (WW) The directory "/usr/share/fonts/X11/75dpi" does not exist.
+[   940.803] 	Entry deleted from font path.
+[   940.803] (==) FontPath set to:
+	/usr/share/fonts/X11/misc,
+	/usr/share/fonts/X11/Type1,
+	built-ins
+[   940.803] (==) ModulePath set to "/usr/lib/xorg/modules"
+[   940.803] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[   940.803] (II) Loader magic: 0x55b3efbe0020
+[   940.803] (II) Module ABI versions:
+[   940.803] 	X.Org ANSI C Emulation: 0.4
+[   940.803] 	X.Org Video Driver: 24.0
+[   940.803] 	X.Org XInput driver : 24.1
+[   940.803] 	X.Org Server Extension : 10.0
+[   940.804] (++) using VT number 2
+
+[   940.805] (II) systemd-logind: took control of session /org/freedesktop/login1/session/_312
+[   940.806] (II) xfree86: Adding drm device (/dev/dri/card0)
+[   940.807] (II) systemd-logind: got fd for /dev/dri/card0 226:0 fd 12 paused 0
+[   940.809] (--) PCI:*(0@0:2:0) 8086:5917:1414:0026 rev 7, Mem @ 0xa0000000/16777216, 0x90000000/268435456, I/O @ 0x00003000/64, BIOS @ 0x????????/131072
+[   940.809] (II) LoadModule: "glx"
+[   940.809] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[   940.810] (II) Module glx: vendor="X.Org Foundation"
+[   940.810] 	compiled for 1.20.1, module version = 1.0.0
+[   940.810] 	ABI class: X.Org Server Extension, version 10.0
+[   940.810] (II) LoadModule: "intel"
+[   940.810] (II) Loading /usr/lib/xorg/modules/drivers/intel_drv.so
+[   940.810] (II) Module intel: vendor="X.Org Foundation"
+[   940.810] 	compiled for 1.20.1, module version = 2.99.917
+[   940.810] 	Module class: X.Org Video Driver
+[   940.810] 	ABI class: X.Org Video Driver, version 24.0
+[   940.810] (II) intel: Driver for Intel(R) Integrated Graphics Chipsets:
+	i810, i810-dc100, i810e, i815, i830M, 845G, 854, 852GM/855GM, 865G,
+	915G, E7221 (i915), 915GM, 945G, 945GM, 945GME, Pineview GM,
+	Pineview G, 965G, G35, 965Q, 946GZ, 965GM, 965GME/GLE, G33, Q35, Q33,
+	GM45, 4 Series, G45/G43, Q45/Q43, G41, B43
+[   940.811] (II) intel: Driver for Intel(R) HD Graphics
+[   940.811] (II) intel: Driver for Intel(R) Iris(TM) Graphics
+[   940.811] (II) intel: Driver for Intel(R) Iris(TM) Pro Graphics
+[   940.811] xf86EnableIOPorts: failed to set IOPL for I/O (Operation not permitted)
+[   940.811] (II) intel(0): Using Kernel Mode Setting driver: i915, version 1.6.0 20180514
+[   940.811] (II) intel(0): SNA compiled: xserver-xorg-video-intel 2:2.99.917+git20171229-1ubuntu1 (Timo Aaltonen <tjaalton@debian.org>)
+[   940.811] (II) intel(0): SNA compiled for use with valgrind
+[   940.830] (WW) VGA arbiter: cannot open kernel arbiter, no multi-card support
+[   940.830] (--) intel(0): gen9 engineering sample
+[   940.830] (--) intel(0): CPU: x86-64, sse2, sse3, ssse3, sse4.1, sse4.2, avx, avx2; using a maximum of 4 threads
+[   940.831] (II) intel(0): Creating default Display subsection in Screen section
+	"Default Screen Section" for depth/fbbpp 24/32
+[   940.831] (==) intel(0): Depth 24, (--) framebuffer bpp 32
+[   940.831] (==) intel(0): RGB weight 888
+[   940.831] (==) intel(0): Default visual is TrueColor
+[   940.831] (**) intel(0): Option "AccelMethod" "sna"
+[   940.831] (**) intel(0): Option "Backlight" "intel_backlight"
+[   940.833] (II) intel(0): Output eDP1 has no monitor section
+[   940.846] (**) intel(0): Found backlight control interface intel_backlight (type 'raw') for output eDP1
+[   940.846] (II) intel(0): Enabled output eDP1
+[   940.846] (II) intel(0): Output DP1 has no monitor section
+[   940.846] (II) intel(0): Enabled output DP1
+[   940.846] (II) intel(0): Output HDMI1 has no monitor section
+[   940.847] (II) intel(0): Enabled output HDMI1
+[   940.847] (II) intel(0): Output DP2 has no monitor section
+[   940.847] (II) intel(0): Enabled output DP2
+[   940.847] (II) intel(0): Output HDMI2 has no monitor section
+[   940.848] (II) intel(0): Enabled output HDMI2
+[   940.848] (--) intel(0): Using a maximum size of 256x256 for hardware cursors
+[   940.848] (II) intel(0): Output VIRTUAL1 has no monitor section
+[   940.848] (II) intel(0): Enabled output VIRTUAL1
+[   940.848] (--) intel(0): Output eDP1 using initial mode 2736x1824 on pipe 0
+[   940.849] (==) intel(0): TearFree disabled
+[   940.849] (==) intel(0): Using gamma correction (1.0, 1.0, 1.0)
+[   940.849] (==) intel(0): DPI set to (96, 96)
+[   940.849] (II) Loading sub module "dri3"
+[   940.849] (II) LoadModule: "dri3"
+[   940.849] (II) Module "dri3" already built-in
+[   940.849] (II) Loading sub module "dri2"
+[   940.849] (II) LoadModule: "dri2"
+[   940.849] (II) Module "dri2" already built-in
+[   940.849] (II) Loading sub module "present"
+[   940.849] (II) LoadModule: "present"
+[   940.849] (II) Module "present" already built-in
+[   940.853] (II) intel(0): SNA initialized with Kabylake (gen9) backend
+[   940.853] (==) intel(0): Backing store enabled
+[   940.854] (==) intel(0): Silken mouse enabled
+[   940.854] (II) intel(0): HW Cursor enabled
+[   940.854] (==) intel(0): DPMS enabled
+[   940.855] (==) intel(0): Display hotplug detection enabled
+[   940.855] (II) intel(0): [DRI2] Setup complete
+[   940.855] (II) intel(0): [DRI2]   DRI driver: i965
+[   940.855] (II) intel(0): [DRI2]   VDPAU driver: va_gl
+[   940.855] (II) intel(0): direct rendering: DRI2 enabled
+[   940.855] (II) intel(0): hardware support for Present enabled
+[   940.855] (II) Initializing extension Generic Event Extension
+[   940.855] (II) Initializing extension SHAPE
+[   940.856] (II) Initializing extension MIT-SHM
+[   940.856] (II) Initializing extension XInputExtension
+[   940.857] (II) Initializing extension XTEST
+[   940.857] (II) Initializing extension BIG-REQUESTS
+[   940.858] (II) Initializing extension SYNC
+[   940.858] (II) Initializing extension XKEYBOARD
+[   940.859] (II) Initializing extension XC-MISC
+[   940.859] (II) Initializing extension SECURITY
+[   940.860] (II) Initializing extension XFIXES
+[   940.860] (II) Initializing extension RENDER
+[   940.861] (II) Initializing extension RANDR
+[   940.862] (II) Initializing extension COMPOSITE
+[   940.862] (II) Initializing extension DAMAGE
+[   940.862] (II) Initializing extension MIT-SCREEN-SAVER
+[   940.863] (II) Initializing extension DOUBLE-BUFFER
+[   940.863] (II) Initializing extension RECORD
+[   940.863] (II) Initializing extension DPMS
+[   940.864] (II) Initializing extension Present
+[   940.864] (II) Initializing extension DRI3
+[   940.864] (II) Initializing extension X-Resource
+[   940.864] (II) Initializing extension XVideo
+[   940.865] (II) Initializing extension XVideo-MotionCompensation
+[   940.865] (II) Initializing extension SELinux
+[   940.865] (II) SELinux: Disabled on system
+[   940.865] (II) Initializing extension GLX
+[   940.878] (II) AIGLX: Loaded and initialized i965
+[   940.878] (II) GLX: Initialized DRI2 GL provider for screen 0
+[   940.878] (II) Initializing extension XFree86-VidModeExtension
+[   940.878] (II) Initializing extension XFree86-DGA
+[   940.878] (II) Initializing extension XFree86-DRI
+[   940.878] (II) Initializing extension DRI2
+[   940.883] (II) intel(0): switch to mode 2736x1824@60.0 on eDP1 using pipe 0, position (0, 0), rotation normal, reflection none
+[   940.897] (II) intel(0): Setting screen physical size to 723 x 482
+[   940.922] (II) config/udev: Adding input device Video Bus (/dev/input/event1)
+[   940.922] (**) Video Bus: Applying InputClass "libinput keyboard catchall"
+[   940.922] (II) LoadModule: "libinput"
+[   940.922] (II) Loading /usr/lib/xorg/modules/input/libinput_drv.so
+[   940.923] (II) Module libinput: vendor="X.Org Foundation"
+[   940.923] 	compiled for 1.20.1, module version = 0.28.1
+[   940.923] 	Module class: X.Org XInput Driver
+[   940.923] 	ABI class: X.Org XInput driver, version 24.1
+[   940.923] (II) Using input driver 'libinput' for 'Video Bus'
+[   940.924] (II) systemd-logind: got fd for /dev/input/event1 13:65 fd 23 paused 0
+[   940.924] (**) Video Bus: always reports core events
+[   940.924] (**) Option "Device" "/dev/input/event1"
+[   940.924] (**) Option "_source" "server/udev"
+[   940.925] (II) event1  - Video Bus: is tagged by udev as: Keyboard
+[   940.925] (II) event1  - Video Bus: device is a keyboard
+[   940.925] (II) event1  - Video Bus: device removed
+[   940.925] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/input/input1/event1"
+[   940.925] (II) XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 6)
+[   940.925] (**) Option "xkb_model" "pc105"
+[   940.925] (**) Option "xkb_layout" "us"
+[   940.926] (II) event1  - Video Bus: is tagged by udev as: Keyboard
+[   940.926] (II) event1  - Video Bus: device is a keyboard
+[   940.926] (II) config/udev: Adding input device Lid Switch (/dev/input/event0)
+[   940.926] (II) No input driver specified, ignoring this device.
+[   940.926] (II) This device may have been added with another device file.
+[   940.927] (II) config/udev: Adding input device Microsoft Surface Type Cover Keyboard (/dev/input/event2)
+[   940.927] (**) Microsoft Surface Type Cover Keyboard: Applying InputClass "libinput keyboard catchall"
+[   940.927] (II) Using input driver 'libinput' for 'Microsoft Surface Type Cover Keyboard'
+[   940.928] (II) systemd-logind: got fd for /dev/input/event2 13:66 fd 26 paused 0
+[   940.928] (**) Microsoft Surface Type Cover Keyboard: always reports core events
+[   940.928] (**) Option "Device" "/dev/input/event2"
+[   940.928] (**) Option "_source" "server/udev"
+[   940.929] (II) event2  - Microsoft Surface Type Cover Keyboard: is tagged by udev as: Keyboard
+[   940.929] (II) event2  - Microsoft Surface Type Cover Keyboard: device is a keyboard
+[   940.930] (II) event2  - Microsoft Surface Type Cover Keyboard: device removed
+[   940.930] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-7/1-7:1.0/0003:045E:09C0.0001/input/input11/event2"
+[   940.930] (II) XINPUT: Adding extended input device "Microsoft Surface Type Cover Keyboard" (type: KEYBOARD, id 7)
+[   940.930] (**) Option "xkb_model" "pc105"
+[   940.930] (**) Option "xkb_layout" "us"
+[   940.931] (II) event2  - Microsoft Surface Type Cover Keyboard: is tagged by udev as: Keyboard
+[   940.931] (II) event2  - Microsoft Surface Type Cover Keyboard: device is a keyboard
+[   940.931] (II) config/udev: Adding input device Microsoft Surface Type Cover Mouse (/dev/input/event3)
+[   940.931] (**) Microsoft Surface Type Cover Mouse: Applying InputClass "libinput pointer catchall"
+[   940.931] (II) Using input driver 'libinput' for 'Microsoft Surface Type Cover Mouse'
+[   940.941] (II) systemd-logind: got fd for /dev/input/event3 13:67 fd 27 paused 0
+[   940.941] (**) Microsoft Surface Type Cover Mouse: always reports core events
+[   940.941] (**) Option "Device" "/dev/input/event3"
+[   940.941] (**) Option "_source" "server/udev"
+[   940.946] (II) event3  - Microsoft Surface Type Cover Mouse: is tagged by udev as: Mouse
+[   940.946] (II) event3  - Microsoft Surface Type Cover Mouse: device is a pointer
+[   940.947] (II) event3  - Microsoft Surface Type Cover Mouse: device removed
+[   940.947] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-7/1-7:1.0/0003:045E:09C0.0001/input/input12/event3"
+[   940.947] (II) XINPUT: Adding extended input device "Microsoft Surface Type Cover Mouse" (type: MOUSE, id 8)
+[   940.947] (**) Option "AccelerationScheme" "none"
+[   940.947] (**) Microsoft Surface Type Cover Mouse: (accel) selected scheme none/0
+[   940.947] (**) Microsoft Surface Type Cover Mouse: (accel) acceleration factor: 2.000
+[   940.947] (**) Microsoft Surface Type Cover Mouse: (accel) acceleration threshold: 4
+[   940.951] (II) event3  - Microsoft Surface Type Cover Mouse: is tagged by udev as: Mouse
+[   940.951] (II) event3  - Microsoft Surface Type Cover Mouse: device is a pointer
+[   940.953] (II) config/udev: Adding input device Microsoft Surface Type Cover Mouse (/dev/input/mouse0)
+[   940.953] (II) No input driver specified, ignoring this device.
+[   940.953] (II) This device may have been added with another device file.
+[   940.956] (II) config/udev: Adding input device Microsoft Surface Type Cover Consumer Control (/dev/input/event4)
+[   940.956] (**) Microsoft Surface Type Cover Consumer Control: Applying InputClass "libinput keyboard catchall"
+[   940.956] (II) Using input driver 'libinput' for 'Microsoft Surface Type Cover Consumer Control'
+[   940.967] (II) systemd-logind: got fd for /dev/input/event4 13:68 fd 28 paused 0
+[   940.967] (**) Microsoft Surface Type Cover Consumer Control: always reports core events
+[   940.967] (**) Option "Device" "/dev/input/event4"
+[   940.967] (**) Option "_source" "server/udev"
+[   940.970] (II) event4  - Microsoft Surface Type Cover Consumer Control: is tagged by udev as: Keyboard
+[   940.970] (II) event4  - Microsoft Surface Type Cover Consumer Control: device is a keyboard
+[   940.970] (II) event4  - Microsoft Surface Type Cover Consumer Control: device removed
+[   940.970] (II) libinput: Microsoft Surface Type Cover Consumer Control: needs a virtual subdevice
+[   940.970] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-7/1-7:1.0/0003:045E:09C0.0001/input/input13/event4"
+[   940.970] (II) XINPUT: Adding extended input device "Microsoft Surface Type Cover Consumer Control" (type: MOUSE, id 9)
+[   940.970] (**) Option "AccelerationScheme" "none"
+[   940.970] (**) Microsoft Surface Type Cover Consumer Control: (accel) selected scheme none/0
+[   940.970] (**) Microsoft Surface Type Cover Consumer Control: (accel) acceleration factor: 2.000
+[   940.970] (**) Microsoft Surface Type Cover Consumer Control: (accel) acceleration threshold: 4
+[   940.972] (II) event4  - Microsoft Surface Type Cover Consumer Control: is tagged by udev as: Keyboard
+[   940.972] (II) event4  - Microsoft Surface Type Cover Consumer Control: device is a keyboard
+[   940.973] (II) config/udev: Adding input device Microsoft Surface Type Cover Touchpad (/dev/input/event5)
+[   940.973] (**) Microsoft Surface Type Cover Touchpad: Applying InputClass "libinput touchpad catchall"
+[   940.973] (**) Microsoft Surface Type Cover Touchpad: Applying InputClass "libinput touchpad catchall"
+[   940.973] (II) Using input driver 'libinput' for 'Microsoft Surface Type Cover Touchpad'
+[   940.974] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 29 paused 0
+[   940.974] (**) Microsoft Surface Type Cover Touchpad: always reports core events
+[   940.974] (**) Option "Device" "/dev/input/event5"
+[   940.974] (**) Option "_source" "server/udev"
+[   940.976] (II) event5  - Microsoft Surface Type Cover Touchpad: is tagged by udev as: Touchpad
+[   940.976] (II) event5  - Microsoft Surface Type Cover Touchpad: device is a touchpad
+[   940.976] (II) event5  - Microsoft Surface Type Cover Touchpad: device removed
+[   940.976] (**) Option "Tapping" "on"
+[   940.976] (**) Option "TappingDrag" "true"
+[   940.976] (**) Option "NaturalScrolling" "true"
+[   940.976] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-7/1-7:1.0/0003:045E:09C0.0001/input/input15/event5"
+[   940.977] (II) XINPUT: Adding extended input device "Microsoft Surface Type Cover Touchpad" (type: TOUCHPAD, id 10)
+[   940.977] (**) Option "AccelerationScheme" "none"
+[   940.977] (**) Microsoft Surface Type Cover Touchpad: (accel) selected scheme none/0
+[   940.977] (**) Microsoft Surface Type Cover Touchpad: (accel) acceleration factor: 2.000
+[   940.977] (**) Microsoft Surface Type Cover Touchpad: (accel) acceleration threshold: 4
+[   940.978] (II) event5  - Microsoft Surface Type Cover Touchpad: is tagged by udev as: Touchpad
+[   940.978] (II) event5  - Microsoft Surface Type Cover Touchpad: device is a touchpad
+[   940.979] (II) config/udev: Adding input device Microsoft Surface Type Cover Touchpad (/dev/input/mouse1)
+[   940.979] (II) No input driver specified, ignoring this device.
+[   940.979] (II) This device may have been added with another device file.
+[   940.979] (II) config/udev: Adding input device ipts 045E:001F UNKNOWN (/dev/input/event6)
+[   940.979] (**) ipts 045E:001F UNKNOWN: Applying InputClass "libinput touchscreen catchall"
+[   940.979] (II) Using input driver 'libinput' for 'ipts 045E:001F UNKNOWN'
+[   940.980] (II) systemd-logind: got fd for /dev/input/event6 13:70 fd 30 paused 0
+[   940.980] (**) ipts 045E:001F UNKNOWN: always reports core events
+[   940.980] (**) Option "Device" "/dev/input/event6"
+[   940.980] (**) Option "_source" "server/udev"
+[   940.981] (II) event6  - ipts 045E:001F UNKNOWN: is tagged by udev as: Touchscreen
+[   940.981] (II) event6  - ipts 045E:001F UNKNOWN: device is a touch device
+[   940.981] (II) event6  - ipts 045E:001F UNKNOWN: device removed
+[   940.981] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:16.4/mei::3e8d0870-271a-4208-8eb5-9acb9402ae04:0F/0044:045E:001F.0003/input/input31/event6"
+[   940.981] (II) XINPUT: Adding extended input device "ipts 045E:001F UNKNOWN" (type: TOUCHSCREEN, id 11)
+[   940.982] (**) Option "AccelerationScheme" "none"
+[   940.982] (**) ipts 045E:001F UNKNOWN: (accel) selected scheme none/0
+[   940.982] (**) ipts 045E:001F UNKNOWN: (accel) acceleration factor: 2.000
+[   940.982] (**) ipts 045E:001F UNKNOWN: (accel) acceleration threshold: 4
+[   940.982] (II) event6  - ipts 045E:001F UNKNOWN: is tagged by udev as: Touchscreen
+[   940.982] (II) event6  - ipts 045E:001F UNKNOWN: device is a touch device
+[   940.983] (II) config/udev: Adding input device ipts 045E:001F UNKNOWN (/dev/input/mouse2)
+[   940.983] (II) No input driver specified, ignoring this device.
+[   940.983] (II) This device may have been added with another device file.
+[   940.983] (II) config/udev: Adding input device ipts 045E:001F Pen (/dev/input/event7)
+[   940.983] (**) ipts 045E:001F Pen: Applying InputClass "libinput tablet catchall"
+[   940.983] (II) Using input driver 'libinput' for 'ipts 045E:001F Pen'
+[   940.984] (II) systemd-logind: got fd for /dev/input/event7 13:71 fd 31 paused 0
+[   940.984] (**) ipts 045E:001F Pen: always reports core events
+[   940.984] (**) Option "Device" "/dev/input/event7"
+[   940.984] (**) Option "_source" "server/udev"
+[   940.985] (II) event7  - ipts 045E:001F Pen: is tagged by udev as: Tablet
+[   940.990] (II) event7  - ipts 045E:001F Pen: tablet 'ipts 045E:001F Pen' unknown to libwacom
+[   940.991] (II) event7  - ipts 045E:001F Pen: device is a tablet
+[   940.991] (II) event7  - ipts 045E:001F Pen: device removed
+[   940.991] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:16.4/mei::3e8d0870-271a-4208-8eb5-9acb9402ae04:0F/0044:045E:001F.0003/input/input33/event7"
+[   940.991] (II) XINPUT: Adding extended input device "ipts 045E:001F Pen" (type: TABLET, id 12)
+[   940.991] (II) event7  - ipts 045E:001F Pen: is tagged by udev as: Tablet
+[   940.996] (II) event7  - ipts 045E:001F Pen: tablet 'ipts 045E:001F Pen' unknown to libwacom
+[   940.996] (II) event7  - ipts 045E:001F Pen: device is a tablet
+[   940.997] (II) config/udev: Adding input device ipts 045E:001F Pen (/dev/input/mouse3)
+[   940.997] (II) No input driver specified, ignoring this device.
+[   940.997] (II) This device may have been added with another device file.
+[   940.997] (II) config/udev: Adding input device ipts 045E:001F Touchscreen (/dev/input/event8)
+[   940.997] (**) ipts 045E:001F Touchscreen: Applying InputClass "libinput touchscreen catchall"
+[   940.997] (II) Using input driver 'libinput' for 'ipts 045E:001F Touchscreen'
+[   940.998] (II) systemd-logind: got fd for /dev/input/event8 13:72 fd 33 paused 0
+[   940.998] (**) ipts 045E:001F Touchscreen: always reports core events
+[   940.998] (**) Option "Device" "/dev/input/event8"
+[   940.998] (**) Option "_source" "server/udev"
+[   940.999] (II) event8  - ipts 045E:001F Touchscreen: is tagged by udev as: Touchscreen
+[   940.999] (II) event8  - ipts 045E:001F Touchscreen: device is a touch device
+[   940.999] (II) event8  - ipts 045E:001F Touchscreen: device removed
+[   940.999] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:16.4/mei::3e8d0870-271a-4208-8eb5-9acb9402ae04:0F/0044:045E:001F.0003/input/input34/event8"
+[   940.999] (II) XINPUT: Adding extended input device "ipts 045E:001F Touchscreen" (type: TOUCHSCREEN, id 13)
+[   940.999] (**) Option "AccelerationScheme" "none"
+[   940.999] (**) ipts 045E:001F Touchscreen: (accel) selected scheme none/0
+[   940.999] (**) ipts 045E:001F Touchscreen: (accel) acceleration factor: 2.000
+[   940.999] (**) ipts 045E:001F Touchscreen: (accel) acceleration threshold: 4
+[   941.000] (II) event8  - ipts 045E:001F Touchscreen: is tagged by udev as: Touchscreen
+[   941.000] (II) event8  - ipts 045E:001F Touchscreen: device is a touch device
+[   941.000] (II) config/udev: Adding input device ipts 045E:001F Touchscreen (/dev/input/mouse4)
+[   941.000] (II) No input driver specified, ignoring this device.
+[   941.000] (II) This device may have been added with another device file.
+[   941.001] (II) config/udev: Adding input device ipts 045E:001F Mouse (/dev/input/event9)
+[   941.001] (**) ipts 045E:001F Mouse: Applying InputClass "libinput pointer catchall"
+[   941.001] (II) Using input driver 'libinput' for 'ipts 045E:001F Mouse'
+[   941.002] (II) systemd-logind: got fd for /dev/input/event9 13:73 fd 34 paused 0
+[   941.002] (**) ipts 045E:001F Mouse: always reports core events
+[   941.002] (**) Option "Device" "/dev/input/event9"
+[   941.002] (**) Option "_source" "server/udev"
+[   941.003] (II) event9  - ipts 045E:001F Mouse: is tagged by udev as: Mouse
+[   941.003] (II) event9  - ipts 045E:001F Mouse: device is a pointer
+[   941.003] (II) event9  - ipts 045E:001F Mouse: device removed
+[   941.003] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:16.4/mei::3e8d0870-271a-4208-8eb5-9acb9402ae04:0F/0044:045E:001F.0003/input/input35/event9"
+[   941.003] (II) XINPUT: Adding extended input device "ipts 045E:001F Mouse" (type: MOUSE, id 14)
+[   941.003] (**) Option "AccelerationScheme" "none"
+[   941.003] (**) ipts 045E:001F Mouse: (accel) selected scheme none/0
+[   941.003] (**) ipts 045E:001F Mouse: (accel) acceleration factor: 2.000
+[   941.003] (**) ipts 045E:001F Mouse: (accel) acceleration threshold: 4
+[   941.004] (II) event9  - ipts 045E:001F Mouse: is tagged by udev as: Mouse
+[   941.004] (II) event9  - ipts 045E:001F Mouse: device is a pointer
+[   941.004] (II) config/udev: Adding input device ipts 045E:001F Mouse (/dev/input/mouse5)
+[   941.004] (II) No input driver specified, ignoring this device.
+[   941.004] (II) This device may have been added with another device file.
+[   941.005] (II) config/udev: Adding input device HDA Intel PCH Mic (/dev/input/event10)
+[   941.005] (II) No input driver specified, ignoring this device.
+[   941.005] (II) This device may have been added with another device file.
+[   941.005] (II) config/udev: Adding input device HDA Intel PCH Headphone (/dev/input/event11)
+[   941.005] (II) No input driver specified, ignoring this device.
+[   941.005] (II) This device may have been added with another device file.
+[   941.005] (II) config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=3 (/dev/input/event12)
+[   941.005] (II) No input driver specified, ignoring this device.
+[   941.005] (II) This device may have been added with another device file.
+[   941.005] (II) config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=7 (/dev/input/event13)
+[   941.005] (II) No input driver specified, ignoring this device.
+[   941.005] (II) This device may have been added with another device file.
+[   941.006] (II) config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=8 (/dev/input/event14)
+[   941.006] (II) No input driver specified, ignoring this device.
+[   941.006] (II) This device may have been added with another device file.
+[   941.006] (II) config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=9 (/dev/input/event15)
+[   941.006] (II) No input driver specified, ignoring this device.
+[   941.006] (II) This device may have been added with another device file.
+[   941.006] (II) config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=10 (/dev/input/event16)
+[   941.006] (II) No input driver specified, ignoring this device.
+[   941.006] (II) This device may have been added with another device file.
+[   941.006] (II) config/udev: Adding input device gpio-keys (/dev/input/event17)
+[   941.006] (**) gpio-keys: Applying InputClass "libinput keyboard catchall"
+[   941.006] (II) Using input driver 'libinput' for 'gpio-keys'
+[   941.007] (II) systemd-logind: got fd for /dev/input/event17 13:81 fd 35 paused 0
+[   941.007] (**) gpio-keys: always reports core events
+[   941.007] (**) Option "Device" "/dev/input/event17"
+[   941.007] (**) Option "_source" "server/udev"
+[   941.008] (II) event17 - gpio-keys: is tagged by udev as: Keyboard
+[   941.008] (II) event17 - gpio-keys: device is a keyboard
+[   941.008] (II) event17 - gpio-keys: device removed
+[   941.008] (**) Option "config_info" "udev:/sys/devices/platform/gpio-keys.7.auto/input/input46/event17"
+[   941.008] (II) XINPUT: Adding extended input device "gpio-keys" (type: KEYBOARD, id 15)
+[   941.008] (**) Option "xkb_model" "pc105"
+[   941.008] (**) Option "xkb_layout" "us"
+[   941.009] (II) event17 - gpio-keys: is tagged by udev as: Keyboard
+[   941.009] (II) event17 - gpio-keys: device is a keyboard
+[   941.009] (II) config/udev: Adding input device gpio-keys (/dev/input/event18)
+[   941.009] (**) gpio-keys: Applying InputClass "libinput keyboard catchall"
+[   941.009] (II) Using input driver 'libinput' for 'gpio-keys'
+[   941.009] (II) systemd-logind: got fd for /dev/input/event18 13:82 fd 36 paused 0
+[   941.009] (**) gpio-keys: always reports core events
+[   941.009] (**) Option "Device" "/dev/input/event18"
+[   941.009] (**) Option "_source" "server/udev"
+[   941.010] (II) event18 - gpio-keys: is tagged by udev as: Keyboard
+[   941.010] (II) event18 - gpio-keys: device is a keyboard
+[   941.010] (II) event18 - gpio-keys: device removed
+[   941.010] (**) Option "config_info" "udev:/sys/devices/platform/gpio-keys.8.auto/input/input47/event18"
+[   941.010] (II) XINPUT: Adding extended input device "gpio-keys" (type: KEYBOARD, id 16)
+[   941.010] (**) Option "xkb_model" "pc105"
+[   941.010] (**) Option "xkb_layout" "us"
+[   941.011] (II) event18 - gpio-keys: is tagged by udev as: Keyboard
+[   941.011] (II) event18 - gpio-keys: device is a keyboard
+[   941.031] (**) Microsoft Surface Type Cover Consumer Control: Applying InputClass "libinput keyboard catchall"
+[   941.031] (II) Using input driver 'libinput' for 'Microsoft Surface Type Cover Consumer Control'
+[   941.031] (II) systemd-logind: returning pre-existing fd for /dev/input/event4 13:68
+[   941.031] (**) Microsoft Surface Type Cover Consumer Control: always reports core events
+[   941.031] (**) Option "Device" "/dev/input/event4"
+[   941.031] (**) Option "_source" "_driver/libinput"
+[   941.031] (II) libinput: Microsoft Surface Type Cover Consumer Control: is a virtual subdevice
+[   941.031] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-7/1-7:1.0/0003:045E:09C0.0001/input/input13/event4"
+[   941.031] (II) XINPUT: Adding extended input device "Microsoft Surface Type Cover Consumer Control" (type: KEYBOARD, id 17)
+[   941.031] (**) Option "xkb_model" "pc105"
+[   941.031] (**) Option "xkb_layout" "us"
+[   942.229] (II) intel(0): EDID vendor "LGD", prod id 1365
+[   942.229] (II) intel(0): Using EDID range info for horizontal sync
+[   942.229] (II) intel(0): Using EDID range info for vertical refresh
+[   942.229] (II) intel(0): Printing DDC gathered Modelines:
+[   942.229] (II) intel(0): Modeline "2736x1824"x0.0  325.75  2736 2784 2816 2896  1824 1827 1837 1876 -hsync -vsync (112.5 kHz eP)
+[  3396.493] (EE) event5  - Microsoft Surface Type Cover Touchpad: kernel bug: Touch jump detected and discarded.
+See https://wayland.freedesktop.org/libinput/doc/1.12.1/touchpad-jumping-cursors.html for details
+[  3401.885] (EE) event5  - Microsoft Surface Type Cover Touchpad: kernel bug: Touch jump detected and discarded.
+See https://wayland.freedesktop.org/libinput/doc/1.12.1/touchpad-jumping-cursors.html for details
+[ 15956.615] (EE) event5  - Microsoft Surface Type Cover Touchpad: kernel bug: Touch jump detected and discarded.
+See https://wayland.freedesktop.org/libinput/doc/1.12.1/touchpad-jumping-cursors.html for details
+[ 16479.357] (II) config/udev: Adding input device 2C:41:A1:42:1D:90 (/dev/input/event19)
+[ 16479.357] (**) 2C:41:A1:42:1D:90: Applying InputClass "libinput keyboard catchall"
+[ 16479.357] (II) Using input driver 'libinput' for '2C:41:A1:42:1D:90'
+[ 16479.360] (II) systemd-logind: got fd for /dev/input/event19 13:83 fd 51 paused 0
+[ 16479.360] (**) 2C:41:A1:42:1D:90: always reports core events
+[ 16479.360] (**) Option "Device" "/dev/input/event19"
+[ 16479.360] (**) Option "_source" "server/udev"
+[ 16479.362] (II) event19 - 2C:41:A1:42:1D:90: is tagged by udev as: Keyboard
+[ 16479.362] (II) event19 - 2C:41:A1:42:1D:90: device is a keyboard
+[ 16479.362] (II) event19 - 2C:41:A1:42:1D:90: device removed
+[ 16479.362] (**) Option "config_info" "udev:/sys/devices/virtual/input/input48/event19"
+[ 16479.362] (II) XINPUT: Adding extended input device "2C:41:A1:42:1D:90" (type: KEYBOARD, id 18)
+[ 16479.362] (**) Option "xkb_model" "pc105"
+[ 16479.362] (**) Option "xkb_layout" "us"
+[ 16479.362] (WW) Option "xkb_variant" requires a string value
+[ 16479.362] (WW) Option "xkb_options" requires a string value
+[ 16479.365] (II) event19 - 2C:41:A1:42:1D:90: is tagged by udev as: Keyboard
+[ 16479.365] (II) event19 - 2C:41:A1:42:1D:90: device is a keyboard
+[ 17036.541] (EE) event5  - Microsoft Surface Type Cover Touchpad: kernel bug: Touch jump detected and discarded.
+See https://wayland.freedesktop.org/libinput/doc/1.12.1/touchpad-jumping-cursors.html for details

@@ -1,0 +1,36 @@
+{
+   "author": "SmartAdblock",
+   "background": {
+      "persistent": true,
+      "scripts": [ "background-script.js", "sample.js", "popup/suffix.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "icons/sbgry19.png",
+         "38": "icons/sbgry38.png"
+      },
+      "default_popup": "popup/sab.html"
+   },
+   "content_scripts": [ {
+      "css": [ "notif.css" ],
+      "js": [ "popup/jquery.js", "content-script.js" ],
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_extensionName__",
+   "homepage_url": "https://www.trafiklite.com/smartadblock",
+   "icons": {
+      "128": "icons/sab128.png",
+      "16": "icons/sab16.png",
+      "32": "icons/sab32.png",
+      "48": "icons/sbg48.png",
+      "72": "icons/sbg72.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuh0Q2lnlyXLrezQjjtwbD9znXjo1joauB2t7nNHixvw350wxY86SiwZEyJdXY1o5WCm10KNP8yFCGI8by01Wo2/pmGg9DgRy+cOnardeiHbuXBGodVVPCMCeyPw9OaVnNf79NJ9a0H6lSO1bhquL0bcXBkiMMkPd6VfPlbdpdsTMdp5T4zCB3obXq15iNCQK29RiZJxEZd2coUbVPIJavLEWjlzxxYBXpgAhxgki1jgb2YiDFU5KyMy2z8cLAnIJqIm9vlxjvD6uJl8LFD+s4OrNt8IMkKkVVfxkmJX7pxXJ2T/YjmH9r7Cx8n9MVWglOHOUXWfbPYeEvGIro7E09wIDAQAB",
+   "manifest_version": 2,
+   "name": "SmartAdblock",
+   "permissions": [ "activeTab", "tabs", "webRequest", "webRequestBlocking", "\u003Call_urls>", "contextMenus", "storage", "notifications", "https://www.trafiklite.com/", "contentSettings" ],
+   "short_name": "SmartAdblock",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.5"
+}

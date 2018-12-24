@@ -1,0 +1,63 @@
+{
+   "blockedit": {
+      "message": "Funkce SmartAdBlock ji blokovala."
+   },
+   "dis": {
+      "message": "Zakázat"
+   },
+   "ena": {
+      "message": "Umožnit"
+   },
+   "extensionDescription": {
+      "description": "SmartAdBlock Extension",
+      "message": "SmartAdBlock"
+   },
+   "extensionName": {
+      "description": "SmartAdBlock Extension",
+      "message": "Poslední Adblocker budete potřebovat"
+   },
+   "hasblock": {
+      "message": "SmartAdBlock je blokován"
+   },
+   "inactive": {
+      "message": "SmartAdBlock je zakázán na této stránce"
+   },
+   "loc_one": {
+      "message": "Toto je místní stránka"
+   },
+   "loc_two": {
+      "message": "SmartAdBlock je v místních stránkách neaktivní"
+   },
+   "notapopup": {
+      "message": "Není to popup? Klepnutím sem můžete sledovat tento odkaz."
+   },
+   "notificationContent": {
+      "description": "SmartAd Blocker - Pop up blocker",
+      "message": "SmartAd Blocker - Pop up blocker",
+      "placeholders": {
+         "url": {
+            "content": "SmartAd Blocker",
+            "example": "SmartAd Blocker"
+         }
+      }
+   },
+   "notificationTitle": {
+      "description": "SmartAdBlock Extension",
+      "message": "SmartAdBlock Extension"
+   },
+   "on": {
+      "message": "na"
+   },
+   "request": {
+      "message": "žádost"
+   },
+   "requests": {
+      "message": "žádostí"
+   },
+   "suggestions": {
+      "message": "Návrhy"
+   },
+   "tips": {
+      "message": "Tipy"
+   }
+}

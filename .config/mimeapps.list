@@ -1,0 +1,15 @@
+[Default Applications]
+x-scheme-handler/magnet=transmission-remote.desktop;
+x-scheme-handler/mailto=userapp-Thunderbird-C888TZ.desktop
+text/plain=vim.desktop;
+application/pdf=zathura.desktop;
+image/png=feh.desktop;
+image/jpeg=feh.desktop;
+application/x-synology-drive-doc=synology-drive-open-file.desktop
+application/x-synology-drive-sheet=synology-drive-open-file.desktop
+application/x-synology-drive-slides=synology-drive-open-file.desktop
+message/rfc822=userapp-Thunderbird-C888TZ.desktop
+
+[Added Associations]
+x-scheme-handler/mailto=userapp-Thunderbird-C888TZ.desktop;
+message/rfc822=userapp-Thunderbird-C888TZ.desktop;

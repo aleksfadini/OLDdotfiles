@@ -1,0 +1,937 @@
+ ;=====================================================
+;
+;   To learn more about how to configure Polybar
+;   go to https://github.com/jaagr/polybar
+;
+;   The README contains alot of information
+;
+;=====================================================
+
+;    a88888b.          dP
+;   d8'   `88          88
+;   88        .d8888b. 88 .d8888b. 88d888b. .d8888b.
+;   88        88'  `88 88 88'  `88 88'  `88 Y8ooooo.
+;   Y8.   .88 88.  .88 88 88.  .88 88             88
+;    Y88888P' `88888P' dP `88888P' dP       `88888P'
+;
+;
+[colors]
+; ;background = ${xrdb:color0:#222}
+; background = #771d1f21
+; background-alt = #444
+; ;foreground = ${xrdb:color7:#222}
+; foreground = #dfdfdf
+; foreground-alt = #555
+; primary = #ffb52a
+; secondary = #e60053
+; alert = #bd2c40
+
+base03 = #002b36
+base02 = #77000000
+base01 = #8E8E8E
+base00 = #657b83
+
+base0 = #839496
+base1 = #C7C7C7
+base2 = #eee8d5
+base3 = #fdf6e3
+yellow = #b58900
+orange = #cb4b16
+red = #9B3127
+magenta = #d33682
+violet = #6c71c4
+blue = #268bd2
+cyan = #2aa198
+green = #859900
+
+; Colors used in the default config
+background = ${self.base02}
+background-alt = ${self.base1}
+foreground = ${self.base1}
+foreground-alt = ${self.base01}
+primary = ${self.yellow}
+secondary = ${self.blue}
+alert = ${self.red}
+
+
+;    888888ba                         dP
+;    88    `8b                        88
+;   a88aaaa8P' .d8888b. 88d888b.    d8888P .d8888b. 88d888b.
+;    88   `8b. 88'  `88 88'  `88      88   88'  `88 88'  `88
+;    88    .88 88.  .88 88            88   88.  .88 88.  .88
+;    88888888P `88888P8 dP            dP   `88888P' 88Y888P'
+;                                                   88
+;                                                   dP
+
+[bar/top]
+monitor = ${env:MONITOR:DP-1}
+width = 100%
+height = 40
+bottom = false
+radius = 0.0
+fixed-center = false
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+line-size = 3
+line-color = #f00
+
+border-size = 0
+border-bottom-size = 0
+border-color = #00000000
+
+padding-left = 0
+padding-right = 2
+
+
+module-margin-left = 2
+module-margin-right = 2
+
+separator = •
+
+; font-0 = fixed:pixelsize=9;1
+; font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
+; font-2 = siji:pixelsize=9;1
+font-0 = UbuntuMono-Medium:size=13
+font-1 = FontAwesome:size=16
+font-2 = FontAwesome:size=15
+font-3 = FontAwesome:size=16
+font-4 = Ubuntu Nerd Font:size=16
+font-5 = octicons:size=16
+font-6 = Material Design Icons:size=13
+
+modules-left = xwindow
+modules-center =
+modules-right = mpd volume
+
+; tray-position = right
+; tray-padding = 5
+; tray-transparent = true
+; tray-background = #000000
+; tray-maxsize = 20
+
+locale =  fr_FR.UTF-8
+
+;wm-restack = bspwm
+;wm-restack = i3
+
+;override-redirect = true
+
+;scroll-up = bspwm-desknext
+;scroll-down = bspwm-deskprev
+
+
+;    888888ba                       dP                  dP     dP
+;    88    `8b                      88                  88     88
+;   a88aaaa8P' .d8888b. 88d888b.    88d888b. .d8888b. d8888P d8888P .d8888b. 88d8b.d8b.
+;    88   `8b. 88'  `88 88'  `88    88'  `88 88'  `88   88     88   88'  `88 88'`88'`88
+;    88    .88 88.  .88 88          88.  .88 88.  .88   88     88   88.  .88 88  88  88
+;    88888888P `88888P8 dP          88Y8888' `88888P'   dP     dP   `88888P' dP  dP  dP
+;
+;
+
+[bar/bottom]
+monitor = ${env:MONITOR:DP-1}
+width = 100%
+height = 40
+bottom = true
+radius = 0.0
+fixed-center = false
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+line-size = 3
+line-color = #f00
+
+border-size = 0
+border-bottom-size = 0
+border-color = #00000000
+
+padding-left = 0
+padding-right = 2
+
+
+module-margin-left = 1
+module-margin-right = 2
+
+
+
+; font-0 = fixed:pixelsize=9;1
+; font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
+; font-2 = siji:pixelsize=9;1
+font-0 = UbuntuMono-Medium:size=13
+;font-0 = TerminessTTF Nerd Font:size=13
+font-1 = FontAwesome:size=16
+font-2 = FontAwesome:size=15
+font-3 = FontAwesome:size=16
+font-4 = Ubuntu Nerd Font:size=16
+font-5 = octicons:size=16
+font-6 = Material Design Icons:size=13
+
+modules-left = i3
+modules-center = networkspeeddown networkspeedup   fs-root fs-home fs-nurea
+modules-right =  mailq-danya email oth-gandi bank-bp bank-cc pkg cpu mem temperature system-uptime-pretty date time
+
+tray-position = right
+tray-padding = 5
+tray-transparent = true
+tray-background = #000000
+tray-maxsize = 20
+
+locale =  fr_FR.UTF-8
+
+;wm-restack = bspwm
+;wm-restack = i3
+
+;override-redirect = true
+
+;scroll-up = bspwm-desknext
+;scroll-down = bspwm-deskprev
+
+
+scroll-up = i3wm-wsnext
+scroll-down = i3wm-wsprev
+
+
+
+
+
+;
+;
+;   aaaaaaaa aaaaaaaa aaaaaaaa aaaaaaaa aaaaaaaa aaaaaaaa aaaaaaaa aaaaaaaa
+;
+;   88888888 88888888 88888888 88888888 88888888 88888888 88888888 88888888
+;
+;
+;
+
+;                       oo                dP
+;                                         88
+;   dP.  .dP dP  dP  dP dP 88d888b. .d888b88 .d8888b. dP  dP  dP
+;    `8bd8'  88  88  88 88 88'  `88 88'  `88 88'  `88 88  88  88
+;    .d88b.  88.88b.88' 88 88    88 88.  .88 88.  .88 88.88b.88'
+;   dP'  `dP 8888P Y8P  dP dP    dP `88888P8 `88888P' 8888P Y8P
+;
+;
+[module/xwindow]
+type = internal/xwindow
+label = %title%
+
+;            dP                         dP                                        dP
+;            88                         88                                        88
+;   dP.  .dP 88  .dP  .d8888b. dP    dP 88d888b. .d8888b. .d8888b. 88d888b. .d888b88
+;    `8bd8'  88888"   88ooood8 88    88 88'  `88 88'  `88 88'  `88 88'  `88 88'  `88
+;    .d88b.  88  `8b. 88.  ... 88.  .88 88.  .88 88.  .88 88.  .88 88       88.  .88
+;   dP'  `dP dP   `YP `88888P' `8888P88 88Y8888' `88888P' `88888P8 dP       `88888P8
+;                                   .88
+;                               d8888P
+
+
+;   dP
+;   88
+;   88d888b. .d8888b. 88d888b. dP  dP  dP 88d8b.d8b.
+;   88'  `88 Y8ooooo. 88'  `88 88  88  88 88'`88'`88
+;   88.  .88       88 88.  .88 88.88b.88' 88  88  88
+;   88Y8888' `88888P' 88Y888P' 8888P Y8P  dP  dP  dP
+;                     88
+;                     dP
+[module/bspwm]
+type = internal/bspwm
+
+label-focused = %index%
+label-focused-background = ${colors.background-alt}
+label-focused-underline= ${colors.primary}
+label-focused-padding = 2
+
+label-occupied = %index%
+label-occupied-padding = 2
+
+label-urgent = %index%!
+label-urgent-background = ${colors.alert}
+label-urgent-padding = 2
+
+label-empty = %index%
+label-empty-foreground = ${colors.foreground-alt}
+label-empty-padding = 2
+
+;   oo d8888b.
+;          `88
+;   dP  aaad8' dP  dP  dP 88d8b.d8b.
+;   88     `88 88  88  88 88'`88'`88
+;   88     .88 88.88b.88' 88  88  88
+;   dP d88888P 8888P Y8P  dP  dP  dP
+;
+;
+[module/i3]
+type = internal/i3
+
+index-sort = true
+wrapping-scroll = false
+fuzzy-match = true
+enable-scroll = true
+enable-click = true
+
+; Only show workspaces on the same output as the bar
+;pin-workspaces = true
+
+; Available tags:
+;   <label-state> (default) - gets replaced with <label-(focused|unfocused|visible|urgent)>
+;   <label-mode> (default)
+format = <label-state> <label-mode>
+
+; Available tokens:
+;   %mode%
+; Default: %mode%
+label-mode = %mode%
+label-mode-padding = 2
+label-mode-background = #e60053
+
+; Available tokens:
+;   %name%
+;   %icon%
+;   %index%
+;   %output%
+; Default: %icon%  %name%
+label-focused = %icon%
+label-focused-foreground = #ffffff
+label-focused-background = #11000000
+label-focused-underline = #fba922
+label-focused-padding = 2
+
+; Available tokens:
+;   %name%
+;   %icon%
+;   %index%
+; Default: %icon%  %name%
+label-unfocused = %icon%
+label-unfocused-padding = 2
+
+; Available tokens:
+;   %name%
+;   %icon%
+;   %index%
+; Default: %icon%  %name%
+label-visible = %icon%
+label-visible-underline = #FF0000
+label-visible-padding = 2
+
+; Available tokens:
+;   %name%
+;   %icon%
+;   %index%
+; Default: %icon%  %name%
+label-urgent = %icon%
+label-urgent-foreground = #ffffff
+label-urgent-background = #77DA4646
+label-urgent-padding = 2
+
+
+; ws-icon-[0-9]+ = label;icon
+; NOTE: The label needs to match the name of the i3 workspace
+ws-icon-0 = 1 ;1 
+ws-icon-1 = 2 ;2 
+ws-icon-2 = 3 ;3 
+ws-icon-3 = 4 ;4 
+ws-icon-4 = 5 ;5 
+ws-icon-5 = 6 ;6 
+ws-icon-6 = 7 ;7 
+ws-icon-7 = 8 ;8 
+ws-icon-8 = 9 ;9 
+ws-icon-9 = 10 ;10 
+ws-icon-10 = 11 ;11 
+ws-icon-11 = 12 ;12 
+ws-icon-default = 
+
+
+
+
+
+;                    dP
+;                    88
+;   88d8b.d8b. .d888b88 88d888b.
+;   88'`88'`88 88'  `88 88'  `88
+;   88  88  88 88.  .88 88.  .88
+;   dP  dP  dP `88888P8 88Y888P'
+;                       88
+;                       dP
+[module/mpd]
+type = internal/mpd
+; format-online = <icon-prev> <icon-stop> <toggle> <icon-next> <label-song>
+
+
+
+; label-song-maxlen = 45
+; label-song-ellipsis = true
+
+; Available tags:
+;   <label-song> (default)
+;   <label-time>
+;   <bar-progress>
+;   <toggle> - gets replaced with <icon-(pause|play)>
+;   <toggle-stop> - gets replaced with <icon-(stop|play)>
+;   <icon-random>
+;   <icon-repeat>
+;   <icon-repeatone>
+;   <icon-consume>
+;   <icon-prev>
+;   <icon-stop>
+;   <icon-play>
+;   <icon-pause>
+;   <icon-next>
+;   <icon-seekb>
+;   <icon-seekf>
+format-online = <label-song>     <bar-progress> <label-time>      <icon-prev> <icon-seekb> <icon-stop> <toggle> <icon-seekf> <icon-next>     <icon-repeatone> <icon-repeat> <icon-random>
+; format-playing = ${self.format-online}
+; format-paused = ${self.format-online}
+; format-stopped = ${self.format-online}
+
+; Available tags:
+;   <label-offline>
+format-offline = <label-offline>
+
+; Available tokens:
+;   %artist%
+;   %album%
+;   %date%
+;   %title%
+; Default: %artist% - %title%
+label-song = 𝄞 %artist% • %title%
+
+; Available tokens:
+;   %elapsed%
+;   %total%
+; Default: %elapsed% / %total%
+;label-time = %elapsed% / %total%
+
+; Available tokens:
+;   None
+label-offline = mpd est hors ligne
+
+; Only applies if <icon-X> is used
+icon-prev = 
+icon-stop = 
+icon-play = 
+icon-pause = 
+icon-next = 
+icon-seekb = 
+icon-seekf = 
+icon-random = 
+icon-repeat = 
+icon-repeatone = 
+icon-consume = ✀
+
+; Used to display the state of random/repeat/repeatone
+; Only applies if <icon-[random|repeat|repeatone]> is used
+toggle-on-foreground = #ff
+toggle-off-foreground = #55
+
+; Only applies if <bar-progress> is used
+bar-progress-width = 25
+bar-progress-indicator = |
+bar-progress-fill = ─
+bar-progress-empty = ─
+
+
+
+
+;
+;
+;   88d888b. .d8888b. dP  dP  dP .d8888b. 88d888b. 88d8b.d8b. .d8888b. 88d888b. dP    dP
+;   88'  `88 88'  `88 88  88  88 88ooood8 88'  `88 88'`88'`88 88ooood8 88'  `88 88    88
+;   88.  .88 88.  .88 88.88b.88' 88.  ... 88       88  88  88 88.  ... 88    88 88.  .88
+;   88Y888P' `88888P' 8888P Y8P  `88888P' dP       dP  dP  dP `88888P' dP    dP `88888P'
+;   88
+;   dP
+
+
+
+;
+;
+;   88d8b.d8b. .d8888b. 88d888b. dP    dP
+;   88'`88'`88 88ooood8 88'  `88 88    88
+;   88  88  88 88.  ... 88    88 88.  .88
+;   dP  dP  dP `88888P' dP    dP `88888P'
+;
+;
+
+[module/menu-apps]
+type = custom/menu
+
+; If true, <label-toggle> will be to the left of the menu items (default).
+; If false, it will be on the right of all the items.
+expand-right = true
+
+; "menu-LEVEL-N" has the same properties as "label-NAME" with
+; the additional "exec" property
+;
+; Available exec commands:
+;   menu-open-LEVEL
+;   menu-close
+; Other commands will be executed using "/usr/bin/env sh -c $COMMAND"
+
+menu-0-0 = Browsers
+menu-0-0-exec = menu-open-1
+menu-0-2 = Multimedia
+menu-0-2-exec = menu-open-2
+
+menu-1-0 = Firefox
+menu-1-0-exec = firefox &
+menu-1-1 = Chromium
+menu-1-1-exec = chromium &
+
+menu-2-0 = Gimp
+menu-2-0-exec = gimp &
+menu-2-1 = Scrot
+menu-2-1-exec = scrot &
+
+; Available tags:
+;   <label-toggle> (default) - gets replaced with <label-(open|close)>
+;   <menu> (default)
+;format = <label-toggle> <menu>
+
+label-open = Apps
+label-close = x
+
+; Optional item separator
+; Default: none
+label-separator = |
+
+
+;              dP   dP
+;              88   88
+;   .d8888b. d8888P 88d888b.
+;   88ooood8   88   88'  `88
+;   88.  ...   88   88    88
+;   `88888P'   dP   dP    dP
+;
+;
+
+
+
+[module/networkspeedup]
+type = internal/network
+interface = enp5s0
+label-connected = "%upspeed:7%"
+format-connected = <label-connected>
+format-connected-prefix = " "
+format-connected-prefix-foreground = #5b
+format-underline = #FF8F06
+
+[module/networkspeeddown]
+type = internal/network
+interface = enp5s0
+label-connected = "%downspeed:7%"
+format-connected = <label-connected>
+format-connected-prefix = " "
+format-connected-prefix-foreground = #5b
+format-underline = #FFB006
+
+
+
+;   .8888b oo dP                                       dP
+;   88   "    88                                       88
+;   88aaa  dP 88 .d8888b. .d8888b. dP    dP .d8888b. d8888P .d8888b. 88d8b.d8b.
+;   88     88 88 88ooood8 Y8ooooo. 88    88 Y8ooooo.   88   88ooood8 88'`88'`88
+;   88     88 88 88.  ...       88 88.  .88       88   88   88.  ... 88  88  88
+;   dP     dP dP `88888P' `88888P' `8888P88 `88888P'   dP   `88888P' dP  dP  dP
+;                                       .88
+;                                   d8888P
+[module/fs-root]
+type = internal/fs
+interval = 60
+mount-0 = /
+label-mounted = %{F#8E8E8E}%{F-} %free%
+label-unmounted = %mountpoint% not mounted
+label-unmounted-foreground = ${colors.foreground-alt}
+label-underline = #F2F85C
+label-foreground = #ff0000
+
+[module/fs-home]
+type = internal/fs
+interval = 60
+mount-0 = /home
+label-mounted = %{F#8E8E8E}%{F-} %free%
+label-unmounted = %mountpoint% not mounted
+label-unmounted-foreground = ${colors.foreground-alt}
+format-underline = #D4F85C
+
+[module/fs-nurea]
+type = internal/fs
+interval = 60
+mount-0 = /media/Nurea/Documents
+label-mounted = %{F#8E8E8E}%{F-} %free%
+format-label-mounted-foreground = ${colors.yellow}
+label-unmounted = %mountpoint% not mounted
+label-unmounted-foreground = ${colors.foreground-alt}
+format-underline = #A3F85C
+
+
+
+;                       oo dP
+;                          88
+;   88d8b.d8b. .d8888b. dP 88 .d8888b.
+;   88'`88'`88 88'  `88 88 88 88'  `88
+;   88  88  88 88.  .88 88 88 88.  .88
+;   dP  dP  dP `88888P8 dP dP `8888P88
+;                                   88
+;                                   dP
+[module/mailq-danya]
+type = custom/script
+interval = 1200
+format = <label>
+format-prefix = " "
+format-prefix-foreground = ${colors.foreground-alt}
+label = "%output:0:10%"
+exec = .config/polybar/scripts/mailq-danya.sh
+exec-if = "ping -q -w 2 -c 1 176.34.135.167 > /dev/null"
+format-underline = #E03988
+click-left = exec .scripts/i3-checkmailq-danya
+
+;                       oo dP
+;                          88
+;   88d8b.d8b. .d8888b. dP 88
+;   88'`88'`88 88'  `88 88 88
+;   88  88  88 88.  .88 88 88
+;   dP  dP  dP `88888P8 dP dP
+;
+;
+[module/email]
+type = custom/script
+exec = ~/.config/polybar/scripts/email.py
+interval = 60
+;format-underline = #268bd2
+format-prefix = " "
+format-prefix-foreground = ${colors.foreground-alt}
+format-underline = #E04039
+click-left = i3-msg "[instance=Mail class=Thunderbird]" focus &
+
+
+
+;                                    dP oo
+;                                    88
+;   .d8888b. .d8888b. 88d888b. .d888b88 dP
+;   88'  `88 88'  `88 88'  `88 88'  `88 88
+;   88.  .88 88.  .88 88    88 88.  .88 88
+;   `8888P88 `88888P8 dP    dP `88888P8 dP
+;        .88
+;    d8888P
+
+
+[module/oth-gandi]
+type = custom/script
+exec = ~/.scripts/oath-gandi.sh
+interval = 1
+;format-underline = #268bd2
+format-prefix = " "
+format-prefix-foreground = ${colors.foreground-alt}
+format-underline = #FF6D00
+
+
+
+
+
+;   dP                         dP
+;   88                         88
+;   88d888b. .d8888b. 88d888b. 88  .dP
+;   88'  `88 88'  `88 88'  `88 88888"
+;   88.  .88 88.  .88 88    88 88  `8b.
+;   88Y8888' `88888P8 dP    dP dP   `YP
+;
+;
+
+[module/bank-bp]
+type = custom/script
+exec = ~/.config/polybar/scripts/boobank-bp-solde.sh
+interval = 3600
+format-underline = #FFB000
+format-prefix = "BP "
+format-prefix-foreground = ${colors.foreground-alt}
+
+[module/bank-cc]
+type = custom/script
+exec = ~/.config/polybar/scripts/boobank-cc-solde.sh
+interval = 3600
+format-underline = #FFE01C
+format-prefix = "CC "
+format-prefix-foreground = ${colors.foreground-alt}
+
+
+
+
+;            dP
+;            88
+;   88d888b. 88  .dP  .d8888b.
+;   88'  `88 88888"   88'  `88
+;   88.  .88 88  `8b. 88.  .88
+;   88Y888P' dP   `YP `8888P88
+;   88                     .88
+;   dP                 d8888P
+[module/pkg]
+type = custom/script
+interval = 1200
+format = <label>
+label = "%output:0:30%"
+exec = .config/polybar/scripts/pkg.sh
+exec-if = "ping -q -w 2 -c 1 176.34.135.167 > /dev/null"
+format-underline = #F0F138
+click-left = terminator -e up &
+
+;
+;
+;   .d8888b. 88d888b. dP    dP
+;   88'  `"" 88'  `88 88    88
+;   88.  ... 88.  .88 88.  .88
+;   `88888P' 88Y888P' `88888P'
+;            88
+;            dP
+[module/cpu]
+type = internal/cpu
+interval = 2
+format-prefix = " "
+format-foreground = ${colors.foreground}
+format-prefix-foreground = ${colors.foreground-alt}
+;format-underline = #f90000
+label = %percentage:2%%
+;label-foreground = ${colors.green}
+format-underline = #C8E344
+
+ramp-coreload-0 = ▁
+ramp-coreload-1 = ▂
+ramp-coreload-2 = ▃
+ramp-coreload-3 = ▄
+ramp-coreload-4 = ▅
+ramp-coreload-5 = ▆
+ramp-coreload-6 = ▇
+ramp-coreload-7 = █
+
+
+;
+;
+;   88d8b.d8b. .d8888b. 88d8b.d8b. .d8888b. 88d888b. dP    dP
+;   88'`88'`88 88ooood8 88'`88'`88 88'  `88 88'  `88 88    88
+;   88  88  88 88.  ... 88  88  88 88.  .88 88       88.  .88
+;   dP  dP  dP `88888P' dP  dP  dP `88888P' dP       `8888P88
+;                                                         .88
+;                                                     d8888P
+[module/mem]
+type = internal/memory
+interval = 2
+format-prefix = " "
+format-prefix-foreground = ${colors.foreground-alt}
+label = %percentage_used%%
+format-underline = #68D560
+
+
+
+
+;     dP
+;     88
+;   d8888P .d8888b. 88d8b.d8b. 88d888b.
+;     88   88ooood8 88'`88'`88 88'  `88
+;     88   88.  ... 88  88  88 88.  .88
+;     dP   `88888P' dP  dP  dP 88Y888P'
+;                              88
+;                              dP
+
+[module/temperature]
+type = internal/temperature
+
+; Seconds to sleep between updates
+; Default: 1
+interval = 0.5
+
+; Thermal zone to use
+; To list all the zone types, run
+; $ for i in /sys/class/thermal/thermal_zone*; do echo "$i: $(<$i/type)"; done
+; Default: 0
+thermal-zone = 0
+
+; Full path of temperature sysfs path
+; Use `sensors` to find preferred temperature source, then run
+; $ for i in /sys/class/hwmon/hwmon*/temp*_input; do echo "$(<$(dirname $i)/name): $(cat ${i%_*}_label 2>/dev/null || echo $(basename ${i%_*})) $(readlink -f $i)"; done
+; to find path to desired file
+; Default reverts to thermal zone setting
+hwmon-path = /sys/devices/platform/coretemp.0/hwmon/hwmon1/temp2_input
+
+; Threshold temperature to display warning label (in degrees celsius)
+; Default: 80
+warn-temperature = 60
+
+; Whether or not to show units next to the temperature tokens (°C, °F)
+; Default: true
+units = falses
+
+; Available tags:
+;   <label> (default)
+;   <ramp>
+format = <ramp> <label>
+format-underline = #6CC9CD
+
+; Available tags:
+;   <label-warn> (default)
+;   <ramp>
+format-warn = <ramp> <label-warn>
+
+; Available tokens:
+;   %temperature% (default, in °C)
+;   %temperature-c%   (temperature, in °C)
+;   %temperature-f%   (temperature, in °F)
+label = %temperature%
+
+; Available tokens:
+;   %temperature% (default, in °C)
+;   %temperature-c%   (temperature, in °C)
+;   %temperature-f%   (temperature, in °F)
+label-warn = %temperature%
+label-warn-foreground = ${colors.foreground}
+
+; Requires the <ramp> tag
+; The icon selection will range from 0 to `warn-temperature`
+; with the current temperature as index.
+ramp-0 = 
+ramp-1 = 
+ramp-2 = 
+ramp-3 = 
+ramp-4 = 
+ramp-foreground = ${colors.foreground-alt}
+
+
+
+;                       dP   oo
+;                       88
+;   dP    dP 88d888b. d8888P dP 88d8b.d8b. .d8888b.
+;   88    88 88'  `88   88   88 88'`88'`88 88ooood8
+;   88.  .88 88.  .88   88   88 88  88  88 88.  ...
+;   `88888P' 88Y888P'   dP   dP dP  dP  dP `88888P'
+;            88
+;            dP
+
+[module/system-uptime-pretty]
+type = custom/script
+exec = ~/.config/polybar/scripts/system-uptime-pretty.sh
+interval = 30
+format-prefix = " "
+format-foreground = ${colors.foreground}
+format-underline = #6C90CD
+
+
+
+;         dP            dP
+;         88            88
+;   .d888b88 .d8888b. d8888P .d8888b.
+;   88'  `88 88'  `88   88   88ooood8
+;   88.  .88 88.  .88   88   88.  ...
+;   `88888P8 `88888P8   dP   `88888P'
+;
+;
+[module/date]
+type = internal/date
+interval = 1800
+
+date = %A %d %b
+date-alt = " %A %d %b %Y"
+
+time = %Hh%M:%S
+time-alt = %Hh%M:%S
+
+format-prefix = " "
+format-foreground = ${colors.foreground}
+format-prefix-foreground = ${colors.foreground-alt}
+format-underline = #7F69A4
+
+label = %date%
+
+
+;     dP   oo
+;     88
+;   d8888P dP 88d8b.d8b. .d8888b.
+;     88   88 88'`88'`88 88ooood8
+;     88   88 88  88  88 88.  ...
+;     dP   dP dP  dP  dP `88888P'
+;
+;
+[module/time]
+type = internal/date
+interval = 1
+
+time = %Hh%M:%S
+time-alt = %Hh%M:%S
+
+format-prefix = " "
+format-foreground = ${colors.foreground}
+format-prefix-foreground = ${colors.foreground-alt}
+format-underline = #A369A4
+
+label = %time%
+
+
+;                     dP
+;                     88
+;   dP   .dP .d8888b. 88 dP    dP 88d8b.d8b. .d8888b.
+;   88   d8' 88'  `88 88 88    88 88'`88'`88 88ooood8
+;   88 .88'  88.  .88 88 88.  .88 88  88  88 88.  ...
+;   8888P'   `88888P' dP `88888P' dP  dP  dP `88888P'
+;
+;
+[module/volume]
+type = internal/volume
+
+format-volume = <label-volume> <bar-volume>
+label-volume = 
+;label-volume-foreground = ${colors.blue}
+format-underline = #5CF8E2
+
+
+format-foreground = ${colors.foreground}
+format-muted-foreground = ${colors.foreground-alt}
+label-muted =  muet
+
+bar-volume-width = 10
+bar-volume-foreground-0 = #55aa55
+bar-volume-foreground-1 = #55aa55
+bar-volume-foreground-2 = #55aa55
+bar-volume-foreground-3 = #55aa55
+bar-volume-foreground-4 = #55aa55
+bar-volume-foreground-5 = #f5a70a
+bar-volume-foreground-6 = #ff5555
+bar-volume-gradient = false
+bar-volume-indicator = |
+bar-volume-indicator-font = 3
+bar-volume-fill = ─
+bar-volume-fill-font = 3
+bar-volume-empty = ─
+bar-volume-empty-font = 3
+bar-volume-empty-foreground = ${colors.foreground-alt}
+
+
+;                       dP     dP   oo
+;                       88     88
+;   .d8888b. .d8888b. d8888P d8888P dP 88d888b. .d8888b. .d8888b.
+;   Y8ooooo. 88ooood8   88     88   88 88'  `88 88'  `88 Y8ooooo.
+;         88 88.  ...   88     88   88 88    88 88.  .88       88
+;   `88888P' `88888P'   dP     dP   dP dP    dP `8888P88 `88888P'
+;                                                    .88
+;                                                d8888P
+[settings]
+screenchange-reload = true
+;compositing-background = xor
+;compositing-background = screen
+;compositing-foreground = source
+;compositing-border = over
+
+
+;            dP          dP                dP
+;            88          88                88
+;   .d8888b. 88 .d8888b. 88d888b. .d8888b. 88
+;   88'  `88 88 88'  `88 88'  `88 88'  `88 88
+;   88.  .88 88 88.  .88 88.  .88 88.  .88 88
+;   `8888P88 dP `88888P' 88Y8888' `88888P8 dP
+;        .88
+;    d8888P
+[global/wm]
+margin-top = 0
+margin-bottom = 0
+
+; vim:ft=dosini
